@@ -16,31 +16,21 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo">
-            <a href="#">
-                <div class="logo-img">
-                    <img src="images/fgrid.png" alt="flexblox-logo" height="55" width="55">
-                </div>
-                <div class="logo-text">
-                    <h1>FLEXBLOX</h1>
-                    <h4>WEB3 INNOVATIONS</h4>
-                </div>
-            </a>
-        </div>
-        <ul class="nav">
-            <li>
-                <a href="#about">About</a>
-            </li>
-            <li>
-                <a href="#services">Services</a>
-            </li>
-            <li>
-                <a href="#testimonial">Testimonial</a>
-            </li>
-            <li>
-                <a href="#contact">Contact</a>
-            </li>
+    <header class="header">
+        <a href="#" class="logo">
+            <img src="images/fgrid.png" alt="flexblox-logo" class="logo-img" height="55" width="55">
+            <div class="logo-text">
+                <h1>FLEXBLOX</h1>
+                <h4>WEB3 INNOVATIONS</h4>
+            </div>
+        </a>
+        <input class="menu-btn" type="checkbox" id="menu-btn" />
+        <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+        <ul class="menu">
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#testimonial">Testimonial</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
     </header>
     <hero>
@@ -59,20 +49,23 @@
         <div class="title" id="about">
             <h1>About Us</h1>
         </div>
-        <div class="about-parent">
-            <div class="about-child">
+        <div class="about-container">
+            <div class="about-item">
                 <h2>What We Do</h2>
                 <p>
                     Flexblox encourages and advocates for the adoption of blockchain technology by industries and
-                    governments across the World as a means to drive innovation in service delivery across all sectors of
+                    governments across the World as a means to drive innovation in service delivery across all sectors
+                    of
                     the Global economy.
                 </p>
             </div>
-            <div class="about-child">
+            <div class="about-item">
                 <h2>How We Work</h2>
                 <p>
-                    We don't just code, we're a one-stop-shop for product development. From consulting on project direction,
-                    to running workshops, designing interfaces, and architecting solutions - we've all the boxes ticked and
+                    We don't just code, we're a one-stop-shop for product development. From consulting on project
+                    direction,
+                    to running workshops, designing interfaces, and architecting solutions - we've all the boxes ticked
+                    and
                     got you covered at everything.
                 </p>
             </div>
@@ -82,25 +75,26 @@
         <div class="title" id="services">
             <h1>Services</h1>
         </div>
-        <div class="services-parent">
-            <div class="services-child">
+        <div class="services-container">
+            <div class="service-item">
                 <h2>UI/UX DESIGN</h2>
                 <p>Constructing beautiful, eye-catching interfaces and intuitive experience for your users</p>
             </div>
-            <div class="services-child">
+            <div class="service-item">
                 <h2>CONSULTING</h2>
                 <p>Engage our experts for advice on decentralised technologies, Web3 products and blockchains</p>
             </div>
-            <div class="services-child">
+            <div class="service-item">
                 <h2>DEVELOPMENT</h2>
-                <p>Writing microservices & database queries, testing and polishing every single line of code in your product
+                <p>Writing microservices & database queries, testing and polishing every single line of code in your
+                    product
                 </p>
             </div>
-            <div class="services-child">
+            <div class="service-item">
                 <h2>WORKSHOPS</h2>
                 <p>Collaborate with our Web3 specialists to brainstorm and develop your product ideas</p>
             </div>
-            <div class="services-child">
+            <div class="service-item">
                 <h2>ARCHITECTURE</h2>
                 <p>Planning & designing optimal and innovative system structures to underpin your product's future</p>
             </div>
@@ -110,7 +104,7 @@
         <div class="title">
             <h1>Testimonial</h1>
         </div>
-        <div class="testimonial-parent">
+        <div class="testimonial-container">
             <p>
                 I can't thank Flexblox team enough for their exceptional service. I approached them to develop a
                 blockchain based payment gateway for my Kingdom, Asgard. Their attention to details and dedication to
@@ -127,7 +121,7 @@
         <div class="title" id="contact">
             <h1>Contact Us</h1>
         </div>
-        <div class="contact-parent">
+        <div class="contact-container">
             <div class="contact-img">
                 <img src="images/contact.svg" alt="contact-us" height="360" width="500">
             </div>
