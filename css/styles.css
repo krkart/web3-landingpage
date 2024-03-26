@@ -226,7 +226,9 @@ hero {
 .hero-img img {
     height: 360px;
     width: 640px;
+    box-shadow: 5px 5px 10px #041733;
 }
+
 
 #hero-text {
     font-size: 40px;
