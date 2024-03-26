@@ -219,7 +219,8 @@ hero {
 }
 
 .hero-container {
-    flex-direction: column;
+    display: block;
+    flex-flow: column unwrap;
     color: #fff;
 }
 
@@ -231,8 +232,8 @@ hero {
 
 
 #hero-text {
-    font-size: 40px;
-    max-width: 600px;
+    font-size: 35px;
+    max-width: 640px;
 }
 
 #hilite {
