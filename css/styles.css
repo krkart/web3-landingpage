@@ -50,6 +50,7 @@ h2 {
     background-color: #041733;
     border-bottom: 2px solid #fff;
     z-index: 3;
+    padding: 5px;
 }
 
 .logo-img {
@@ -112,7 +113,7 @@ h2 {
     cursor: pointer;
     display: inline-block;
     float: right;
-    padding: 20px 5px;
+    padding: 20px 10px;
     position: relative;
     user-select: none;
 }
